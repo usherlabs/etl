@@ -1,6 +1,6 @@
 {
 	"name": "@logsn/client",
-	"version": "0.0.0-dev-20240514232118",
+	"version": "0.0.20",
 	"description": "The Log Store Network Client",
 	"author": "Ryan Soury <ryan@usher.so>, Victor Shevtsov <victor.shevtsov@usher.so>",
 	"license": "Apache-2.0",
@@ -30,7 +30,7 @@
 		"format": "prettier --write .",
 		"test": "dotenv -e .env jest --",
 		"build": "tsc --build ./tsconfig.node.json",
-		"build-production": "pnpm clean; NODE_ENV=production pnpm build && pnpm build-browser-production",
+		"build-production": "pnpm clean; NODE_ENV=production pnpm build",
 		"build-browser-development": "NODE_ENV=development webpack --mode=development --progress",
 		"build-browser-production": "NODE_ENV=production webpack --mode=production --progress",
 		"clean": "jest --clearCache || true; del dist  *.tsbuildinfo node_modules/.cache || true",

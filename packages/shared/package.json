@@ -1,6 +1,6 @@
 {
 	"name": "@logsn/shared",
-	"version": "0.0.0-dev-20240514232118",
+	"version": "0.0.20",
 	"description": "The Log Store Network Shared Library",
 	"repository": {
 		"type": "git",

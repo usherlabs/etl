@@ -1,6 +1,6 @@
 {
 	"name": "@logsn/cli",
-	"version": "0.0.0-dev-20240514232118",
+	"version": "0.0.20",
 	"author": "Ryan Soury <ryan@usher.so>",
 	"license": "GPL-3.0",
 	"description": "The Log Store Network CLI",
